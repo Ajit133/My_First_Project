@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{% static "CSS/mystyle.css" %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Document</title>
+</head>
+<body>
+    <div class="div">
+        <h2>What does Django code look like?</h2>
+
+<p>In a traditional data-driven website, a web application waits for HTTP requests from the web browser (or other client). When a request is received the application works out what is needed based on the URL and possibly information in POST data or GET data. Depending on what is required it may then read or write information from a database or perform other tasks required to satisfy the request. The application will then return a response to the web browser, often dynamically creating an HTML page for the browser to display by inserting the retrieved data into placeholders in an HTML template.
+
+Django web applications typically group the code that handles each of these steps into separate files:</p>
+<img src={% static "images/basic-django.png" %} alt="">
+    </div>
+</body>
+</html>
